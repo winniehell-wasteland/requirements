@@ -1,1 +1,2 @@
-CREATE (Project {name:"requirements"});
+CREATE (project:Project { name:"requirements" })
+RETURN project;
